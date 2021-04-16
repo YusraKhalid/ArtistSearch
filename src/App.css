@@ -1,7 +1,78 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgba(95, 158, 160, 0.178);
 }
 
+.event{
+  float: left;
+  margin: 15px;
+  padding: 15px;
+  box-shadow: black 2px 2px 2px 2px;
+  width: 250px;
+  height: 150px;
+  background-color: rgba(95, 158, 160, 0.200);
+  border: rgba(215, 250, 247, 0.589) 1px solid;
+  border-radius: 5px;
+}
+
+
+.events{
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+}
+
+.clear{
+  clear: both;
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float:left;
+  border: rgba(43, 66, 64, 0.575) 2px solid;
+}
+
+.submit{
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgba(188, 248, 243, 0.74);
+}
+
+.upcoming-events{
+  padding-top: 50px;
+  font-size: larger;
+}
+
+.input{
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+  padding-left: 20px;
+  background-color: rgba(215, 250, 247, 0.589);
+}
+
+.search{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.artist{
+  box-shadow: gray 2px 2px 2px 2px;
+  border-radius: 20px;
+  border: rgba(215, 250, 247, 0.589) 1px solid;
+  padding: 20px;
+  margin: 5px;
+  width: 450px;
+  height: 160px;
+  background-color: rgba(95, 158, 160, 0.200);
+}
+
+/* .App {
+  text-align: center;
+} */
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +83,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +108,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
